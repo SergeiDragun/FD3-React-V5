@@ -27,4 +27,5 @@ Transform.prototype.multiply = function(matrix) {
   this.m[3] = m22;
   this.m[4] = dx;
   this.m[5] = dy;
+  console.log(m11)
 };

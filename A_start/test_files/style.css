@@ -26,6 +26,7 @@ div.PSourceCode
   white-space: pre;
   font-family: monospace;
   padding-left: 15px;
+  position: relative;
 }
 
 span.PSourceCodeText
