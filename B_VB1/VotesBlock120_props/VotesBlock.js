@@ -1,4 +1,4 @@
-﻿var Votes = React.createClass({
+﻿var VotesBlock = React.createClass({
 
   displayName: 'VotesBlock',
 
