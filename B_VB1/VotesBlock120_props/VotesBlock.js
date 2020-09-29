@@ -1,4 +1,4 @@
-﻿var VotesBlock = React.createClass({
+﻿var Votes = React.createClass({
 
   displayName: 'VotesBlock',
 
@@ -10,7 +10,7 @@
 
     var answersCode=[];
     for ( var a=0; a<this.props.answers.length; a++ ) {
-      
+
       var answer=this.props.answers[a];
       var answerCode=        
         React.DOM.div({key:answer.code,className:'Answer'},
