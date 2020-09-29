@@ -10,6 +10,7 @@
 
     var answersCode=[];
     for ( var a=0; a<this.props.answers.length; a++ ) {
+      
       var answer=this.props.answers[a];
       var answerCode=        
         React.DOM.div({key:answer.code,className:'Answer'},
@@ -18,6 +19,7 @@
         );
       answersCode.push(answerCode);
     }
+    
     return React.DOM.div( {className:'VotesBlock'}, 
       React.DOM.div( {className:'Question'}, this.props.question ),
       React.DOM.div( {className:'Answers'}, answersCode ),
